@@ -23,6 +23,8 @@ img
 {
     align-self: center;
     border: 10px double black;
+    width: 20%;
+    height:20%;
 }
 .arrow-button {
     display: block;
