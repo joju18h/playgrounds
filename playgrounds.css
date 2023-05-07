@@ -19,12 +19,16 @@ p1
     font-family: Arial;
 }
 
-img
+.spooked-abel
 {
     align-self: center;
     border: 10px double black;
     width: 20%;
     height:20%;
+}
+.lost-gif{
+    width:50%;
+    height:50%;
 }
 .arrow-button {
     display: block;
