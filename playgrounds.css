@@ -48,8 +48,8 @@ p1
     height:150px;
 }
 .lost-gif{
-    width:50%;
-    height:50%;
+    max-width: 100%;
+    height:auto;
 }
 .arrow-button {
     display: block;
