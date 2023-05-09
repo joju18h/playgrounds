@@ -5,18 +5,19 @@
         <link rel="stylesheet" href="playgrounds.css"> <!--linking css file-->
         <link rel="icon" type="image/x-icon" href="resources/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="playgrounds.js"></script>
         <title>Playgrounds</title>
     </head>
     <body> <!--container for all visible elements-->
         <div class="d-flex flex-column justify-content-center w-100 h-100"></div>
         <h1><strong>Welp</strong></h1>
         <br>
-        <p1>Here's some hello World shit</p1>
+        <p1 id="message">Here's some hello World shit</p1>
         <br>
         <a href = "https://youtu.be/S7OTZMopkUg" target="_blank"> <img src = "resources/scambel.jpg" alt = "spooked abel" class="spooked-abel"></a>
         <br>
-        <button type="button" class="arrow-button" onclick="window.open('https://www.youtube.com/watch?v=F_k2THcD1PA')">Now click on deez<span class="arrow"></span></button>
+        <button type="button" class="arrow-button" id="arrowbutton" onclick="window.open('https://www.youtube.com/watch?v=F_k2THcD1PA'); showMessage('arrowbutton')">Now click on deez<span class="arrow"></span></button>
         <br>
-        <a href="https://www.youtube.com/watch?v=LxGxHxfHqXg" target="_blank"><img src="resources/weekndwhoasked.gif" class="lost-gif" alt="abel looking lost in the fire"></a>
+        <a href="https://www.youtube.com/watch?v=LxGxHxfHqXg" target="_blank"><img src="resources/weekndwhoasked.gif" class="lost-gif" id="gif" alt="abel looking lost in the fire" onclick="showMessage('gif')"></a>
     </body>
 </html>
